@@ -13,7 +13,7 @@ public class MultipartFileUploader {
  
     public static void main(String[] args) {
         String charset = "UTF-8";
-        File uploadFile1 = new File("/home/alex/Pictures/2020-09-22.jpg");
+        File uploadFile1 = new File("/directory/of/attach");
         String requestURL = "https://localhost8080/teste";
         String apiKey = "apiKey";
         String userEmail = "userEmail";
